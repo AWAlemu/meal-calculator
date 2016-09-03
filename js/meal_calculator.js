@@ -18,7 +18,7 @@ Diner.prototype.calculateTax = function() {
 };
 
 Diner.prototype.calculateTip = function() {
-    var tip_percent = 0.2;
+    var tip_percent = 0.20;
     this.tip = this.total * tip_percent;
 };
 
